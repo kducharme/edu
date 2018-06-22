@@ -10,7 +10,9 @@ Now that I have experience with JavaScript and CSS frameworks/libraries, I proba
 
 Here's a sample of the final product:
 
-[image]: https://cdn-images-1.medium.com/max/1600/1*Ft5vqfJum_1OOVCdMqWmag.gif
+![alt text][logo]
+
+[logo]: https://cdn-images-1.medium.com/max/1600/1*Ft5vqfJum_1OOVCdMqWmag.gif "Logo Title Text 2"
 
 ### HTML (index.html)
 Since we'll be using JS to dynamically create the input/dropdown, our HTML is pretty bare bones. I used two separate files for both CSS & JS because:
