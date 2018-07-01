@@ -1,7 +1,11 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Lato";
+}
+
+p, h1, h2, li, button, div {
+    font-family: 'lato';
+    color: #0b132b;
 }
 
 /* Page Structure */
@@ -17,28 +21,77 @@ body {
     background-color: #FAFAFA;
 }
 
-.content {
-    height: calc(100vh - 48px);
-    width: calc(100vw - 210px);
-    padding: 32px 40px;
-    overflow: scroll;
-}
-
 .card {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 0 1px rgba(34, 34, 44, 0.05), 0 2px 8px 0 rgba(0,0,0,.05);
-    width: 100%;
     margin-bottom: 24px;
 }
 
-.content__head {
-    height: 250px;
+.content {
+    height: calc(100vh - 48px);
+    width: calc(100vw - 210px);
+    padding: 0 40px;
+    overflow: scroll;
 }
 
-.content__table {
-    height: 500px;
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 600;
+    height: 80px;
+    position: fixed;
+    background-color: #FAFAFA;
+    margin: 0 -4px;
+    padding: 0 4px;
+    width: calc(100% - 210px - 72px);
 }
+
+.head > button {
+    width: 100px;
+    height: 34px;
+    border-radius: 3px;
+    background-color: #614BB9;
+    border: 1px solid #4E34B1;;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.head > button:hover {
+    background-color: #4E34B1;
+    cursor: pointer;
+}
+
+.content__cards {
+    display: flex;
+    margin-top: 82px;
+    height: calc(100vh - 48px - 82px);
+}
+
+.content__cards--left {
+    width: 100%;
+    height: 100%;
+    /* margin-right: 24px; */
+}
+
+.todo {
+    height: 70%;
+}
+
+.content__cards--right {
+    width: 33%;
+}
+
+.sales {
+    height: 240px;
+    margin-bottom: 24px;
+}
+
+
 
 /* Top Navigation */
 
@@ -83,14 +136,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 124px;
+    width: 132px;
     height: 28px;
     border-radius: 5px;
     background-color: #3FAE2A;
     font-size: 12px;
     font-weight: 600;
     color: white;
-    box-shadow: 0 2px 8px 0 rgba(34, 34, 44, 0.25);
     margin-left: 12px;
 }
 
@@ -103,7 +155,7 @@ body {
     justify-content: flex-start;
     height: calc(100vh - 48px);
     width: 210px;
-    padding: 32px 40px;
+    padding: 16px 40px;
 }
 
 .section { width: 100%; }
@@ -112,7 +164,6 @@ body {
 
 .top > ul {
     list-style: none;
-    color: #0b132b;
     padding: 0;
     font-size: 14px;
     font-weight: 400;
@@ -130,6 +181,14 @@ body {
     width: 16px;
     margin-right: 12px;
 }
+
+.top > ul > li > span {
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 6px;
+    opacity: .5;
+}
+
 .top > ul > li > .small {
     height: 18px!important;
     width: 16px;
@@ -148,7 +207,6 @@ body {
 .active {
     font-weight: 600;
     color: #3FAE2A;
-    /* background-color: #EBFAE8; */
     border-radius: 4px;
     margin: 4px -24px;
     padding: 0 24px;
