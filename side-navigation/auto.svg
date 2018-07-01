@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="22px" viewBox="0 0 16 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Discovery-(v2)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background" transform="translate(-1501.000000, -865.000000)" fill="#949599" fill-rule="nonzero">
+            <path d="M1509,870 L1509,873 L1513,869 L1509,865 L1509,868 C1504.58,868 1501,871.58 1501,876 C1501,877.57 1501.46,879.03 1502.24,880.26 L1503.7,878.8 C1503.25,877.97 1503,877.01 1503,876 C1503,872.69 1505.69,870 1509,870 Z M1515.76,871.74 L1514.3,873.2 C1514.74,874.04 1515,874.99 1515,876 C1515,879.31 1512.31,882 1509,882 L1509,879 L1505,883 L1509,887 L1509,884 C1513.42,884 1517,880.42 1517,876 C1517,874.43 1516.54,872.97 1515.76,871.74 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
