@@ -49,6 +49,10 @@ body {
     width: calc(100% - 210px - 72px);
 }
 
+.head > p {
+    color: #55565A;
+}
+
 .head > button {
     width: 100px;
     height: 34px;
@@ -79,16 +83,47 @@ body {
 }
 
 .todo {
-    height: 70%;
+    padding: 48px;
+    padding-bottom: 60px;
 }
 
-.content__cards--right {
-    width: 33%;
+.todo > h2 {
+    font-size: 22px;
+    /* color: #55565A; */
+    margin-bottom: 40px;
 }
 
-.sales {
-    height: 240px;
-    margin-bottom: 24px;
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 0 16px;
+}
+
+.item:first-of-type {
+    border-top: 1px solid #ececec;
+}
+
+.item > p {
+    font-size: 14px;
+}
+
+.item > button {
+    width: 100px;
+    height: 34px;
+    border-radius: 3px;
+    border: none;
+    background-color: #3FAE2A;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .4px;
+}
+
+.inactive {
+    opacity: .15;
 }
 
 
@@ -136,11 +171,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 132px;
-    height: 28px;
+    width: 124px;
+    height: 26px;
     border-radius: 5px;
     background-color: #3FAE2A;
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 600;
     color: white;
     margin-left: 12px;
@@ -155,7 +190,7 @@ body {
     justify-content: flex-start;
     height: calc(100vh - 48px);
     width: 210px;
-    padding: 16px 40px;
+    padding: 18px 40px;
 }
 
 .section { width: 100%; }
@@ -207,9 +242,6 @@ body {
 .active {
     font-weight: 600;
     color: #3FAE2A;
-    border-radius: 4px;
-    margin: 4px -24px;
-    padding: 0 24px;
 }
 
 .active:hover {
