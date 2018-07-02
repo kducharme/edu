@@ -140,7 +140,7 @@ body {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 0 16px 16px 16px;
+    padding: 0 16px 16px 8px;
     border-bottom: 1px solid #e2e2e2;
 }
 
